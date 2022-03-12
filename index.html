@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/font/font.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="header-left" id="left-logo" style="display: block;"><h1>one punch man</h1></div>
+      <div class="header-right"  >
+        <img
+          src="assets/icons/bars-solid.svg"
+          alt=""
+          id="menu"
+          onclick="openNav()"
+        />
+        <div
+          class="navBar-r"
+          style="display: none; z-index:1; width: 100vw;"
+          id="mySidebar"
+        >
+          <nav class="menu-r" style="display: flex;  ">
+            <a href="# " onclick="closeNav()">
+              <div>Ana Sayfa</div>
+            </a>
+            <a href="# " onclick="closeNav()">
+              <div>Hakkımda</div>
+            </a>
+            <a href="# " onclick="closeNav()">
+              <div>Çalışmalar/ Yeteneklerim</div>
+            </a>
+            <a href="# " onclick="closeNav()">
+              <div>İletişim</div>
+            </a>
+            <a href="# " onclick="closeNav()">
+              <div>İletişim Formu</div>
+            </a>
+          </nav>
+        </div>
+      </div>
+
+      <!-- <span style="width:auto;right:35px; position: fixed; padding:8px 18px; font-size: 16px;font-weight: bolder;background-color: white;" id="menu" onclick="openNav()">Menü</span> -->
+    </header>
+    <section class="main">
+      <div class="main-left">
+        <div class="icons">
+          <a href="http://" target="_blank"
+            ><img src="assets/icons/facebook-f-brands.svg" alt="" id="fb-icon"
+          /></a>
+        </div>
+        <div class="icons">
+          <a href="http://" target="_blank"
+            ><img src="assets/icons/instagram-brands.svg" alt=""
+          /></a>
+        </div>
+        <div class="icons">
+          <a href="http://" target="_blank"
+            ><img src="assets/icons/twitter-square-brands.svg" alt=""
+          /></a>
+        </div>
+      </div>
+      <div class="photo">
+        <img src="assets/img/one_punch_man_rectangle.png" alt="" />
+      </div>
+      <div class="right">
+        <div class="main-right">
+          <div>
+            <div class="main-right-up">
+              <div class="main-right-top">
+                <div class="first">ONE</div>
+                <div class="photo-second">
+                  <img src="assets/img/one_punch_man_square.png" alt="" />
+                </div>
+                <div class="second">PUNCH</div>
+              </div>
+              <div class="main-right-mid"><div class="third">MAN</div></div>
+              <div class="main-right-bottom">
+                <div class="cizgi">
+                  <p>-</p>
+                  <p>-</p>
+                  <p>-</p>
+                  <p>-</p>
+                  <p>-</p>
+                  <p>-</p>
+                  <p>-</p>
+                  <p>-</p>
+                  <p>-</p>
+                  <p>-</p>
+                  <p>-</p>
+                  <p>-</p>
+                  <p>-</p>
+                  <p>-</p>
+                  <p>-</p>
+                  <p>-</p>
+                  <p>-</p>
+                  <p>-</p>
+                  <p>-</p>
+                </div>
+                <div class="third">PHOTO</div>
+              </div>
+            </div>
+
+            <div class="main-right-down">
+              <article id="paragraph" onclick="closeParagraph()">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Sapiente nam in dolorum voluptate aspernatur, deserunt odio
+                excepturi ut cupiditate eveniet incidunt ea distinctio iste
+                dolores vitae laudantium perspiciatis exercitationem id.
+                Possimus accusamus culpa quia, quaerat voluptates aliquam
+                facere. Delectus eaque modi quam dolorum incidunt eum doloremque
+                possimus, eligendi qui eius.........................
+              </article>
+              <div class="button" id="button">
+                <div onclick="openParagraph()">Read more</div>
+                <img
+                  class="arrow-right"
+                  src="assets/img/arrow-ppt.png"
+                  alt=""
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <nav class="nav-bar">
+      <div class="nav-bar-left">Lorem ipsum dolor sit amet consectetur.</div>
+      <div class="nav-bar-mid">
+        <div class="menu">aaaa</div>
+        <div class="menu">aaaa</div>
+        <div class="menu">aaaa</div>
+        <div class="menu">aaaa</div>
+        <div class="menu">aaaa</div>
+      </div>
+      <div class="nav-bar-right">Lorem, ipsum dolor.</div>
+    </nav>
+    <script src="script.js"></script>
+  </body>
+</html>
